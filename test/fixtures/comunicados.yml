@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  persona: one
+  persona: one
+  asunto: MyString
+  contenido: MyString
+  comunicado: one
+
+two:
+  persona: two
+  persona: two
+  asunto: MyString
+  contenido: MyString
+  comunicado: two
