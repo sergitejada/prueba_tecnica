@@ -2,18 +2,9 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: postgres
-  password: ossify.turkey.coiffeur.intercom
-  host: localhost
-  port: 5432
-
 development:
   <<: *default
   database: ejercicio3_development
-  username: postgres
-  password: ossify.turkey.coiffeur.intercom
-  host: localhost
-  port: 5432
 
 test:
   <<: *default
